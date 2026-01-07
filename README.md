@@ -37,11 +37,7 @@ Because it gave the best balance of performance metrics for this dataset.
 
 ## 📋 How to Run This Project
 
-1. Clone the repository  
-```bash
-git clone https://github.com/sakshamkumarsingh11/Heart-disease-prediction.git
-
-2.
+1.
 import pickle
 import numpy as np
 
@@ -55,3 +51,10 @@ sample = np.array([[63, 1, 3, 145, 233, 1, 0, 150, 0, 2.3, 0, 0, 1]])
 # Prediction
 prediction = model.predict(sample)
 print("Prediction:", prediction)
+
+2. Clone the repository  
+```bash
+git clone https://github.com/sakshamkumarsingh11/Heart-disease-prediction.git
+
+
+
