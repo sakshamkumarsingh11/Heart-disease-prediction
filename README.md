@@ -40,3 +40,18 @@ Because it gave the best balance of performance metrics for this dataset.
 1. Clone the repository  
 ```bash
 git clone https://github.com/sakshamkumarsingh11/Heart-disease-prediction.git
+
+2.
+import pickle
+import numpy as np
+
+# Load the trained model
+with open("heart_disease_model.pkl", "rb") as file:
+    model = pickle.load(file)
+
+# Example input (single patient data)
+sample = np.array([[63, 1, 3, 145, 233, 1, 0, 150, 0, 2.3, 0, 0, 1]])
+
+# Prediction
+prediction = model.predict(sample)
+print("Prediction:", prediction)
