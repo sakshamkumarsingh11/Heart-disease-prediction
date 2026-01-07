@@ -25,10 +25,10 @@ This project includes:
 
 **Model used:** Logistic Regression  
 **Cross-validated metrics:**
-- Accuracy: *your score here*
-- Precision: *your score here*
-- Recall: *your score here*
-- F1-Score: *your score here*
+- Accuracy: 84.69%
+- Precision: 82.07%
+- Recall: 92.21%
+- F1-Score: 86.73%
 
 **Final model chosen:** Logistic Regression  
 Because it gave the best balance of performance metrics for this dataset.
